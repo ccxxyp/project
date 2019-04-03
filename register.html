@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>注册</title>
+		<link rel="stylesheet" href="css/register.css" />
+		<link rel="stylesheet" href="css/header.css" />
+	</head>
+	<body>
+		<!--header-->
+		<div class="top-bar">
+			<!--左边的导航栏-->
+			<ul class="left-bar">
+				<li><a title="首页" href="index.html" target="_blank">首页</a></li>
+				<li><a title="菜谱" href="caipu.html" target="_blank">菜谱</a></li>
+				<li><a title="食材" href="shicai.html" target="_blank">食材</a></li>
+				<li><a title="珍选" href="zhenxuan.html" target="_blank">珍选</a></li>
+				<li><a title="健康" href="jiankang.html" target="_blank">健康</a></li>
+				<li><a title="专题" href="zhuanti.html" target="_blank">专题</a></li>
+				<li><a title="社区" href="javascript:;" target="_blank">社区</a></li>
+				<li><a title="话题" href="javascript:;" target="_blank">话题</a></li>
+				<li><a title="活动" href="javascript:;" target="_blank">活动</a></li>
+				<li><a title="搜索" href="javascript:;" target="_blank">搜索</a></li>
+				<li>
+					<a href="javascript:;"><i></i></a>
+					<!--<div>
+						<a title="烘焙" href="javascript:;" target="_blank">&nbsp;烘&nbsp;焙&nbsp;</a>
+						<a title="妈妈派" href="javascript:;" target="_blank">妈妈派</a>
+					</div>-->
+				</li>
+			</ul>
+			<!--右边的登录注册-->
+			<ul class="right-bar">
+				<li><a href="login.html">登录</a></li>
+				<li><a href="register.html">注册</a></li>
+			</ul>
+		</div>
+		<!--背景图片和注册-->
+		<div class="bjzc">
+			<!--背景图片-->
+			<img src="img/20160720146900157818213.jpg"/>
+			<div class="zc">
+				<div>
+					<a href="javascript:;">注册</a>
+					<a href="javascript:;">登录</a>
+				</div>
+				<div class="zc-reg">
+					<form action="">
+						<div>
+				          	<label for="uname">用户名：</label>
+				         	 <input autocomplete required minlength="3" maxlength="12" type="text" placeholder="请输入用户名" autofocus
+				                 name="uname" id="uname"/>
+				          <!--<span class="msg-default">用户名长度在3到12位之间</span>-->
+				        </div>
+				        <div>
+				          <label for="upwd">登录密码：</label>
+				          <input required type="password" minlength="6" maxlength="12" placeholder="请输入密码" name="upwd" autofocus
+				                 id="upwd"/>
+				          <!--<span class="msg-default hidden">密码长度在6到12位之间</span>-->
+				        </div>
+				        <div>
+				          <label for="upwdconfirm">确认密码：</label>
+				          <input required type="password" minlength="6" maxlength="12" placeholder="请确认密码" name="upwdconfirm" autofocus
+				                 id="upwdconfirm"/>
+				          <!--<span class="msg-default hidden">密码长度在6到12位之间</span>-->
+				        </div>
+				        <div>
+				          <label for="email">邮箱：</label>
+				          <input autocomplete required type="email" placeholder="请输入邮箱地址" name="email" id="email"/>
+				          <!--<span class="msg-default hidden">请输入合法的邮箱地址</span>-->
+				        </div>
+				        <div>
+				          <label for="phone">手机号：</label>
+				          <input id="phone" name="phone" placeholder="请输入您的手机号"
+				                 pattern="(\d{11})|^((\d{7,8})|(\d{4}|\d{3})-(\d{7,8})|(\d{4}|\d{3})-(\d{7,8})-(\d{4}|\d{3}|\d{2}|\d{1})|(\d{7,8})-(\d{4}|\d{3}|\d{2}|\d{1}))$"
+				                 required type="text"/>
+				          <!--<span class="msg-default hidden">请输入合法的手机号</span>-->
+				        </div>
+				        <div>
+				          <input type="button" value="提交注册信息" id="bt-register"/>
+				        </div>
+			        </form>
+				</div>
+			</div>
+		</div>
+		<script src="js/jquery-1.11.3.js"></script>
+		<script src="js/register.js"></script>s
+	</body>
+</html>

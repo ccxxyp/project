@@ -1,0 +1,634 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>菜谱</title>
+		<link rel="stylesheet" href="css/caipu.css" />
+		<link rel="stylesheet" href="css/header.css" />
+		<link rel="stylesheet" href="css/footer.css" />
+	</head>
+	<body>
+		<!--header-->
+		<div class="top-bar">
+			<!--左边的导航栏-->
+			<ul class="left-bar">
+				<li><a title="首页" href="index.html" target="_blank">首页</a></li>
+				<li><a title="菜谱" href="caipu.html" target="_blank">菜谱</a></li>
+				<li><a title="食材" href="shicai.html" target="_blank">食材</a></li>
+				<li><a title="珍选" href="zhenxuan.html" target="_blank">珍选</a></li>
+				<li><a title="健康" href="jiankang.html" target="_blank">健康</a></li>
+				<li><a title="专题" href="zhuanti.html" target="_blank">专题</a></li>
+				<li><a title="社区" href="javascript:;" target="_blank">社区</a></li>
+				<li><a title="话题" href="javascript:;" target="_blank">话题</a></li>
+				<li><a title="活动" href="javascript:;" target="_blank">活动</a></li>
+				<li><a title="搜索" href="javascript:;" target="_blank">搜索</a></li>
+				<!--<li>
+					<a href="javascript:;"><i></i></a>
+					<div>
+						<a title="烘焙" href="javascript:;" target="_blank">烘焙</a>
+						<a title="妈妈派" href="javascript:;" target="_blank">妈妈派</a>
+					</div>
+				</li>-->
+			</ul>
+			<!--右边的登录注册-->
+			<ul class="right-bar">
+				<li><a href="login.html">登录</a></li>
+				<li><a href="register.html">注册</a></li>
+			</ul>
+		</div>
+		<!--logo和导航-->
+		<div class="logo-nav">
+			<!--logo-->
+			<img src="img/logo.png"/>
+			<!--导航-->		
+			<div class="nav">
+				<ul>
+					<li><a href="javascript:;" class="active">菜谱首页</a><br /><img src="img/sj.jpg"/></li>
+					<li><a href="javascript:;">分类</a></li>
+					<li><a href="javascript:;">菜单</a></li>
+					<li><a href="javascript:;">排行</a></li>
+					<li><a href="javascript:;">食材</a></li>
+					<li><a href="javascript:;">食疗食补</a></li>
+				</ul>
+				<input type="text"/><a href="javascript:;" class="sreach">搜索</a>
+			</div>
+		</div>
+		<!--浏览全部菜谱-->
+		<div class="llcbcp">
+			<ul>
+				<li><a href="javascript:;">首页</a></li>
+				<li><a href="javascript:;">热菜</a></li>
+				<li><a href="javascript:;">凉菜</a></li>
+				<li><a href="javascript:;">汤羹</a></li>
+				<li><a href="javascript:;">主食</a></li>
+				<li><a href="javascript:;">小吃</a></li>
+				<li><a href="javascript:;">西餐</a></li>
+				<li><a href="javascript:;">烘焙</a></li>
+				<li><a href="javascript:;">饮品</a></li>
+				<li><a href="javascript:;">零食</a></li>
+				<li><a href="javascript:;">泡酱腌菜</a></li>
+				<li><a href="javascript:;">自制食材</a></li>
+				<li><a href="javascript:;">最新菜谱</a></li>
+				<li><a href="javascript:;" data-llcbcp="llcbcp">浏览全部菜谱<sub>﹀</sub></a>
+					<div>
+						<ul>
+							<h5>主食/小吃/饮品</h5>
+						    <li><a title="米饭" href="javascript:;">米饭</a></li>
+						    <li><a title="炒饭" href="javascript:;">炒饭</a></li>						
+						    <li><a title="包子" href="javascript:;">包子</a></li>
+   						    <li><a title="饺子" href="javascript:;">饺子</a></li>
+						    <li><a title="馒头花卷" href="javascript:;">馒头花卷</a></li>
+						    <li><a title="面条" href="ank">面条</a></li>
+						    <li><a title="饼" href="javascript:;">饼</a></li>
+						    <li><a title="粥" href="javascript:;">粥</a></li>
+						    <li><a title="冰品" href="nk">冰品</a></li>
+						</ul>
+						<ul>
+						    <h5>场景/饮食方式</h5>
+						    <li><a title="早餐" href="javascript:;">早餐</a></li>
+						    <li><a title="快手菜" href="javascript:;">快手菜</a></li>
+						    <li><a title="下午茶" href="javascript:;">下午茶</a></li>
+						    <li><a title="中式宴请" href="javascript:;">中式宴请</a></li>
+						    <li><a title="西式宴请" href="javascript:;">西式宴请</a></li>
+						    <li><a title="夏季食谱" href="javascript:;">夏季食谱</a></li>
+						    <li><a title="高颜值" href="javascript:;">高颜值</a></li>
+						    <li><a title="宿舍时代" href="javascript:;">宿舍时代</a></li>
+						    <li><a title="二人世界" href="javascript:;">二人世界</a></li>
+						    <li><a title="儿童" href="javascript:;">儿童</a></li>
+						    <li><a title="孕妇" href="javascript:;">孕妇</a></li>
+						    <li><a title="产妇" href="javascript:;">产妇</a></li>
+						</ul>
+						<ul>
+						    <h5>中西菜系</h5>
+						    <li><a title="川菜" href="javascript:;">川菜</a></li>
+						    <li><a title="鲁菜" href="javascript:;">鲁菜</a></li>
+						    <li><a title="闽菜" href="javascript:;">闽菜</a></li>
+						    <li><a title="粤菜" href="javascript:;">粤菜</a></li>
+						    <li><a title="湘菜" href="javascript:;">湘菜</a></li>
+						    <li><a title="日料" href="3">日料</a></li>
+						    <li><a title="韩餐" href="javascript:;">韩餐</a></li>
+						    <li><a title="泰国菜" href="javascript:;">泰国菜</a></li>
+						    <li><a title="法国菜" href="javascript:;">法国菜</a></li>
+						</ul>
+						<ul>
+						    <h5>烘焙</h5>
+						    <li><a title="面包" href="javascript:;">面包</a></li>
+						    <li><a title="蛋糕" href="javascript:;">蛋糕</a></li>
+						    <li><a title="派塔" href="javascript:;">派塔</a></li>
+						    <li><a title="吐司" href="javascript:;">吐司</a></li>
+						    <li><a title="批萨" href="javascript:;">批萨</a></li>
+						    <li><a title="慕斯" href="javascript:;">慕斯</a></li>
+						    <li><a title="饼干" href="javascript:;">饼干</a></li>
+						    <li><a title="曲奇" href="javascript:;">曲奇</a></li>
+						    <li><a title="布丁" href="javascript:;">布丁</a></li>
+						</ul>
+						<ul>
+						    <h5>常见菜式</h5>
+						    <li><a title="热菜" href="javascript:;">热菜</a></li>
+						    <li><a title="凉菜" href="javascript:;">凉菜</a></li>
+						    <li><a title="主食" href="javascript:;">主食</a></li>
+						    <li><a title="小吃" href="javascript:;">小吃</a></li>
+						    <li><a title="汤羹" href="javascript:;">汤羹</a></li>
+						    <li><a title="烘焙" href="javascript:;">烘焙</a></li>
+						    <li><a title="饮品" href="javascript:;">饮品</a></li>
+						    <li><a title="家常菜" href="javascript:;">家常菜</a></li>
+						    <li><a title="开胃菜" href="javascript:;">开胃菜</a></li>
+						</ul>
+						<ul>
+						    <h5>所有菜谱</h5>
+						    <li><a title="最新发布" href="javascript:;">最新发布</a></li>
+						    <li><a title="最新推荐" href="javascript:;">最新推荐</a></li>
+						    <li><a title="最热菜谱" href="javascript:;">最热菜谱</a></li>
+						    <li><a title="家常菜谱" href="javascript:;">家常菜谱</a></li>
+						</ul>
+						<ul>
+						    <h5>食疗食补</h5>
+						    <li><a title="补钙" href="javascript:;">补钙</a></li>
+						    <li><a title="贫血" href="javascript:;">贫血</a></li>
+						    <li><a title="免疫力" href="javascript:;">免疫力</a></li>
+						    <li><a title="养胃" href="javascript:;">养胃</a></li>
+						    <li><a title="对抗雾霾" href="javascript:;">对抗雾霾</a></li>
+						    <li><a title="润肺止咳" href="javascript:;">润肺止咳</a></li>
+						    <li><a title="滋阴" href="javascript:;">滋阴</a></li>
+						    <li><a title="壮阳" href="javascript:;">壮阳</a></li>
+						    <li><a title="失眠" href="javascript:;">失眠</a></li>
+						    <li><a title="养颜" href="javascript:;">养颜</a></li>
+						    <li><a title="排毒" href="javascript:;">排毒</a></li>
+						    <li><a title="便秘" href="javascript:;">便秘</a></li>
+						    <li><a title="瘦身" href="javascript:;">瘦身</a></li>
+						    <li><a title="丰胸" href="javascript:;">丰胸</a></li>
+						    <li><a title="痛经" href="javascript:;">痛经</a></li>
+						    <li><a title="月经不调" href="javascript:;">月经不调</a></li>
+						</ul>
+					</div>
+				</li>
+			</ul>
+		</div>
+		<!--三张图-->
+		<div class="three">
+			<img src="img/roy.jpg" alt="" />
+			<img src="img/karry.jpg" alt="" />
+			<img src="img/jackson.jpg" alt="" />
+		</div>
+		<!--小图片-->
+		<div class="littlelogo"> 
+			<a href="javascript:;" title="一周最热"><img src="img/r01.jpg">一周最热</a>
+			<a href="javascript:;" title="人气菜肴"><img src="img/r02.jpg">人气菜肴</a>
+			<a href="javascript:;" title="夏季食谱"><img src="img/r03.jpg">夏季食谱</a>
+			<a href="javascript:;" title="高颜值"><img src="img/r04.jpg">高颜值</a>
+			<a href="javascript:;" title="快手菜"><img src="img/r05.jpg">快手菜</a>
+			<a href="javascript:;" title="早餐"><img src="img/r06.jpg">早餐</a>
+			<a href="javascript:;" title="家常菜谱"><img src="img/r07.jpg">家常菜谱</a>
+			<a href="javascript:;" title="烘焙大全"><img src="img/r08.jpg">烘焙大全</a>
+			<a href="javascript:;" title="亲子专区"><img src="img/r09.jpg">亲子专区</a>
+			<a href="javascript:;" title="所有菜谱"><img src="img/r10.jpg">所有菜谱</a>
+		</div>
+		<!--最新推荐-->
+		<div class="zxtj">
+			<div class="zuixin">
+				<div class="zuixin-left">
+					<a href="javascript:" class="active" data-target="zx1" data-toggle="zxtj">最新推荐</a>
+					<a href="javascript:" data-target="zx2" data-toggle="zxtj">最新发布</a>
+					<a href="javascript:" data-target="zx3" data-toggle="zxtj">热菜</a>
+					<a href="javascript:" data-target="zx4" data-toggle="zxtj">凉菜</a>
+					<a href="javascript:" data-target="zx5" data-toggle="zxtj">汤羹</a>
+					<a href="javascript:" data-target="zx6" data-toggle="zxtj">主食</a>
+					<a href="javascript:" data-target="zx7" data-toggle="zxtj">小吃</a>
+					<a href="javascript:" data-target="zx8" data-toggle="zxtj">西餐</a>
+					<a href="javascript:" data-target="zx9" data-toggle="zxtj">烘焙</a>
+					<a href="javascript:" data-target="zx10" data-toggle="zxtj">自制食材</a>
+				</div>
+				<div class="zuixin-right">
+					<a href="javascript:;">全部分类</a>
+				</div>
+			</div>			
+			<div class="zxtj-container">
+				<ul id="zx1">
+					<li>
+					    <a href="javascript:;" title="孜然干炸带鱼"><span><img src="img/2019012515483981714559724956.jpg"/></span>孜然干炸带鱼</a>
+					    <a href="javascript:;" class="tgcyy">tgcyy</a>
+					</li>
+					<li>
+					    <a href="javascript:;" title="蜜汁烤带鱼"><span><img src="img/2019012515483979347749724956.jpg"/></span>蜜汁烤带鱼</a>
+					    <a href="javascript:;" class="tgcyy">tgcyy</a>
+					</li>
+					<li>
+					    <a href="javascript:;" title="【懒人蛋黄酥】蛋挞皮版本，不用揉面"><span><img src="img/2019012515483977553999724956.jpg"/></span>懒人蛋黄酥</a>
+					    <a href="javascript:;" class="tgcyy">马卡龙小魔女</a>
+					</li>
+					<li>
+					    <a href="javascript:;" title="肉末茶树菇豆腐羹"><span><img src="img/2019012515483975034729724956.jpg"/></span>肉末茶树菇豆腐羹</a>
+					    <a href="javascript:;" class="tgcyy">花鱼儿</a>
+					</li>
+					<li>
+					    <a href="javascript:;" title="茶叶蛋"><span><img src="img/2019012515483974349559724956.jpg"/></span>茶叶蛋</a>
+					    <a href="javascript:;" class="tgcyy">小董妞@厨房</a>
+					</li>
+					<li>
+					    <a href="javascript:;" title="带豆炒饭"><span><img src="img/2019012515483954391669724956.jpg"/></span>带豆炒饭</a>
+					    <a href="javascript:;" class="tgcyy">花鱼儿</a>
+					</li>
+					<li>
+					    <a href="javascript:;" title="大虾双菇豆腐煲"><span><img src="img/2019012515483939983659724956.jpg"/></span>大虾双菇豆腐煲</a>
+					    <a href="javascript:;" class="tgcyy">简单是快乐的</a>
+					</li>
+					<li>
+					    <a href="javascript:;" title="#团圆饭#羊肚菌时蔬挂面"><span><img src="img/2019012515483939121599724956.jpg"/></span>羊肚菌时蔬挂面</a>
+					    <a href="javascript:;" class="tgcyy">一溪月</a>
+					</li>
+					<li>
+					    <a href="javascript:;" title="肉末香菇烧豆腐"><span><img src="img/2019012515483937605449724956.jpg"/></span>肉末香菇烧豆腐</a>
+					    <a href="javascript:;" class="tgcyy">烟雨心灵</a>
+					</li>
+					<li>
+					    <a href="javascript:;" title="茄汁糖醋带鱼"><span><img src="img/2019012515483934733899724956.jpg"/></span>茄汁糖醋带鱼</a>
+					    <a href="javascript:;" class="tgcyy">tgcyy</a>
+					</li>
+					<li>
+					    <a href="javascript:;" title="肉末苦瓜豆渣饼"><span><img src="img/2019012515483933487699724956.jpg"/></span>肉末苦瓜豆渣饼</a>
+					    <a href="javascript:;" class="tgcyy">花鱼儿</a>
+					</li>
+					<li>
+					    <a href="javascript:;" title="火腿炒饵块"><span><img src="img/2019012515483932675829724956.jpg"/></span>火腿炒饵块</a>
+					    <a href="javascript:;" class="tgcyy">小董妞@厨房</a>
+					</li>
+					<li>
+					    <a href="javascript:;" title="红烧带鱼"><span><img src="img/2019012515483930138059724956.jpg"/></span>红烧带鱼</a>
+					    <a href="javascript:;" class="tgcyy">tgcyy</a>
+					</li>
+					<li>
+					    <a href="javascript:;" title="苦瓜豆浆"><span><img src="img/2019012515483928734799724956.jpg"/></span>苦瓜豆浆</a>
+					    <a href="javascript:;" class="tgcyy">花鱼儿</a>
+					</li>
+					<li>
+					    <a href="javascript:;" title="发面饼"><span><img src="img/2019012515483882934939724956.jpg"/></span>发面饼</a>
+					    <a href="javascript:;" class="tgcyy">暮色影子</a>
+					</li>
+					<li>
+					    <a href="javascript:;" title="家常烧偏口"><span><img src="img/2019012515483879531339724956.jpg"/></span>家常烧偏口</a>
+					    <a href="javascript:;" class="tgcyy">馋嘴乐</a>
+					</li>
+					<li>
+					    <a href="javascript:;" title="香橙蒸米饭"><span><img src="img/2019012515483878826829724956.jpg"/></span>香橙蒸米饭</a>
+					    <a href="javascript:;" class="tgcyy">金凤栖梧</a>
+					</li>
+					<li>
+					    <a href="javascript:;" title="#团圆饭#花生拌菠菜"><span><img src="img/2019012515483863848699702111.jpg"/></span>花生拌菠菜</a>
+					    <a href="javascript:;" class="tgcyy">一溪月</a>
+					</li>
+					<li>
+					    <a href="javascript:;" title="家常烧三丁"><span><img src="img/2019012515483863276689702111.jpg"/></span>家常烧三丁</a>
+					    <a href="javascript:;" class="tgcyy">馋嘴乐</a>
+					</li>
+					<li>
+					    <a href="javascript:;" title="#团圆饭#蒜苗炒饭"><span><img src="img/2019012515483859136949702111.jpg"/></span>蒜苗炒饭</a>
+					    <a href="javascript:;" class="tgcyy">一溪月</a>
+					</li>
+					<li>
+					    <a href="javascript:;" title="#团圆饭#羊肚菌炒娃娃菜"><span><img src="img/2019012515483855466689702111.jpg"/></span>羊肚菌炒娃娃菜</a>
+					    <a href="javascript:;" class="tgcyy">一溪月</a>
+					</li>
+					<li>
+					    <a href="javascript:;" title="香浓核桃炖蛋"><span><img src="img/2019012515483854567109702111.jpg"/></span>香浓核桃炖蛋</a>
+					    <a href="javascript:;" class="tgcyy">金凤栖梧</a>
+					</li>
+					<li>
+					    <a href="javascript:;" title="切片土司"><span><img src="img/2019012515483853903959702111.jpg"/></span>切片土司</a>
+					    <a href="javascript:;" class="tgcyy">馋嘴乐</a>
+					</li>
+					<li>
+					    <a href="javascript:;" title="红枣馒头"><span><img src="img/2019012515483850247729702111.jpg"/></span>红枣馒头</a>
+					    <a href="javascript:;" class="tgcyy">馋嘴乐</a>
+					</li>
+					<li>
+					    <a href="javascript:;" title="小面包"><span><img src="img/2019012515483842399079702111.jpg"/></span>小面包</a>
+					    <a href="javascript:;" class="tgcyy">馋嘴乐</a>
+					</li>
+					<li>
+					    <a href="javascript:;" title="醋溜白菜片"><span><img src="img/2019012515483840866039702111.jpg"/></span>醋溜白菜片</a>
+					    <a href="javascript:;" class="tgcyy">厨色生香</a>
+					</li>
+					<li>
+					    <a href="javascript:;" title="胡萝卜炒豆芽"><span><img src="img/2019012515483840136309702111.jpg"/></span>胡萝卜炒豆芽</a>
+					    <a href="javascript:;" class="tgcyy">馋嘴乐</a>
+					</li>
+					<li>
+					    <a href="javascript:;" title="花生酱手抓饼"><span><img src="img/2019012515483839078149702111.jpg"/></span>花生酱手抓饼</a>
+					    <a href="javascript:;" class="tgcyy">烟雨心灵</a>
+					</li>
+					<li>
+					    <a href="javascript:;" title="胡椒酱煎肉"><span><img src="img/2019012515483838433239702111.jpg"/></span>胡椒酱煎肉</a>
+					    <a href="javascript:;" class="tgcyy">馋嘴乐</a>
+					</li>
+					<li>
+					    <a href="javascript:;" title="红油鱼片"><span><img src="img/2019012515483825327049702111.jpg"/></span>红油鱼片</a>
+					    <a href="javascript:;" class="tgcyy">馋嘴乐</a>
+					</li>
+					<li>
+					    <a href="javascript:;" title="珍珠豆腐肉丸子"><span><img src="img/2019012515483824181489702111.jpg"/></span>珍珠豆腐肉丸子</a>
+					    <a href="javascript:;" class="tgcyy">英英菜谱</a>
+					</li>
+					<li>
+					    <a href="javascript:;" title="烤了一只鸡"><span><img src="img/2019012515483810586009724956.jpg"/></span>烤了一只鸡</a>
+					    <a href="javascript:;" class="tgcyy">心-静</a>
+					</li>
+				</ul>
+				<ul id="zx2">
+					<li>
+					    <a href="javascript:;" title="麻辣龙虾尾"><span><img src="img/2019012515483982818669724956.jpg"/></span>麻辣龙虾尾</a>
+					    <a href="javascript:;" class="tgcyy">最初的最美❤</a>
+					</li>
+					<li>
+					    <a href="javascript:;" title="缤纷玉米粒"><span><img src="img/2019012515483982373699724956.jpg"/></span>缤纷玉米粒</a>
+					    <a href="javascript:;" class="tgcyy">爱做美食的呼噜</a>
+					</li>
+					<li>
+					    <a href="javascript:;" title="孜然干炸带鱼"><span><img src="img/2019012515483981714559724956.jpg"/></span>孜然干炸带鱼</a>
+					    <a href="javascript:;" class="tgcyy">tgcyy</a>
+					</li>
+					<li>
+					    <a href="javascript:;" title="素面"><span><img src="img/2019012515483980513089724956.jpg"/></span>素面</a>
+					    <a href="javascript:;" class="tgcyy">小丫superstar</a>
+					</li>
+					<li>
+					    <a href="javascript:;" title="盐焗花螺"><span><img src="img/2019012515483979985919724956.jpg"/></span>盐焗花螺</a>
+					    <a href="javascript:;" class="tgcyy">猪仔影</a>
+					</li>
+					<li>
+					    <a href="javascript:;" title="蜜汁烤带鱼"><span><img src="img/2019012515483979347749724956.jpg"/></span>蜜汁烤带鱼</a>
+					    <a href="javascript:;" class="tgcyy">tgcyy</a>
+					</li>
+					<li>
+					    <a href="javascript:;" title="新疆羊肉抓饭"><span><img src="img/2019012515483978829509724956.jpg"/></span>新疆羊肉抓饭</a>
+					    <a href="javascript:;" class="tgcyy">巧克力muni</a>
+					</li>
+					<li>
+					    <a href="javascript:;" title="【懒人蛋黄酥】蛋挞皮版本，不用揉面"><span><img src="img/2019012515483977553999724956.jpg"/></span>懒人蛋黄酥</a>
+					    <a href="javascript:;" class="tgcyy">马卡龙小魔女</a>
+					</li>
+					<li>
+					    <a href="javascript:;" title="葱爆羊肉"><span><img src="img/2019012515483976196049724956.jpg"/></span>葱爆羊肉</a>
+					    <a href="javascript:;" class="tgcyy">最初的最美❤</a>
+					</li>
+					<li>
+					    <a href="javascript:;" title="肉末茶树菇豆腐羹"><span><img src="img/2019012515483975034729724956.jpg"/></span>肉末茶树菇豆腐羹</a>
+					    <a href="javascript:;" class="tgcyy">花鱼儿</a>
+					</li>
+					<li>
+					    <a href="javascript:;" title="茶叶蛋"><span><img src="img/2019012515483974349559724956.jpg"/></span>茶叶蛋</a>
+					    <a href="javascript:;" class="tgcyy">小董妞@厨房</a>
+					</li>
+					<li>
+					    <a href="javascript:;" title="洋葱炒牛肉"><span><img src="img/2019012515483957561559724956.jpg"/></span>洋葱炒牛肉</a>
+					    <a href="javascript:;" class="tgcyy">最初的最美❤</a>
+					</li>
+					<li>
+					    <a href="javascript:;" title="#团圆饭#蛋炒胡萝卜丝"><span><img src="img/2019012515483956682419724956.jpg"/></span>蛋炒胡萝卜丝</a>
+					    <a href="javascript:;" class="tgcyy">等你的每一餐</a>
+					</li>
+					<li>
+					    <a href="javascript:;" title="#团圆饭#海带红烧肉"><span><img src="img/2019012515483955376979724956.jpg"/></span>海带红烧肉</a>
+					    <a href="javascript:;" class="tgcyy">等你的每一餐</a>
+					</li>
+					<li>
+					    <a href="javascript:;" title="带豆炒饭"><span><img src="img/2019012515483954391669724956.jpg"/></span>带豆炒饭</a>
+					    <a href="javascript:;" class="tgcyy">花鱼儿</a>
+					</li>
+					<li>
+					    <a href="javascript:;" title="大虾双菇豆腐煲"><span><img src="img/2019012515483939983659724956.jpg"/></span>大虾双菇豆腐煲</a>
+					    <a href="javascript:;" class="tgcyy">简单是快乐的</a>
+					</li>
+					<li>
+					    <a href="javascript:;" title="#团圆饭#羊肚菌时蔬挂面"><span><img src="img/2019012515483939121599724956.jpg"/></span>羊肚菌时蔬挂面</a>
+					    <a href="javascript:;" class="tgcyy">一溪月</a>
+					</li>
+					<li>
+					    <a href="javascript:;" title="肉末香菇烧豆腐"><span><img src="img/2019012515483937605449724956.jpg"/></span>肉末香菇烧豆腐</a>
+					    <a href="javascript:;" class="tgcyy">烟雨心灵</a>
+					</li>
+					<li>
+					    <a href="javascript:;" title="广式炒米粉"><span><img src="img/2019012515483936747409724956.jpg"/></span>广式炒米粉</a>
+					    <a href="javascript:;" class="tgcyy">肥肥美食</a>
+					</li>
+					<li>
+					    <a href="javascript:;" title="麻辣大海兔" ><span><img src="img/2019012515483935958329724956.jpg"/></span>麻辣大海兔</a>
+					    <a href="javascript:;" class="tgcyy">最初的最美❤</a>
+					</li>
+					<li>
+					    <a href="javascript:;" title="茄汁糖醋带鱼"><span><img src="img/2019012515483934733899724956.jpg"/></span>茄汁糖醋带鱼</a>
+					    <a href="javascript:;" class="tgcyy">tgcyy</a>
+					</li>
+					<li>
+					    <a href="javascript:;" title="肉末苦瓜豆渣饼"><span><img src="img/2019012515483933487699724956.jpg"/></span>肉末苦瓜豆渣饼</a>
+					    <a href="javascript:;" class="tgcyy">花鱼儿</a>
+					</li>
+					<li>
+					    <a href="javascript:;" title="火腿炒饵块"><span><img src="img/2019012515483932675829724956.jpg"/></span>火腿炒饵块</a>
+					    <a href="javascript:;" class="tgcyy">小董妞@厨房</a>
+					</li>
+					<li>
+					    <a href="javascript:;" title="川味香肠"><span><img src="img/2019012515483931874029724956.jpg"/></span>川味香肠</a>
+					    <a href="javascript:;" class="tgcyy">sky姐</a>
+					</li>
+					<li>
+					    <a href="javascript:;" title="香辣八爪鱼"><span><img src="img/2019012515483931022409724956.jpg"/></span>香辣八爪鱼</a>
+					    <a href="javascript:;" class="tgcyy">最初的最美❤</a>
+					</li>
+					<li>
+					    <a href="javascript:;" title="红烧带鱼"><span><img src="img/2019012515483930138059724956.jpg"/></span>红烧带鱼</a>
+					    <a href="javascript:;" class="tgcyy">tgcyy</a>
+					</li>
+					<li>
+					    <a href="javascript:;" title="紫薯饼"><span><img src="img/2019012515483929439739724956.jpg"/></span>紫薯饼</a>
+					    <a href="javascript:;" class="tgcyy">twobabys琪💋薇儿</a>
+					</li>
+					<li>
+					    <a href="javascript:;" title="苦瓜豆浆"><span><img src="img/2019012515483928734799724956.jpg"/></span>苦瓜豆浆</a>
+					    <a href="javascript:;" class="tgcyy">花鱼儿</a>
+					</li>
+					<li>
+					    <a href="javascript:;" title="发面饼"><span><img src="img/2019012515483882934939724956.jpg"/></span>发面饼</a>
+					    <a href="javascript:;" class="tgcyy">暮色影子</a>
+					</li>
+					<li>
+					    <a href="javascript:;" title="大基数减重：生酮曲奇饼干"><span><img src="img/2019012515483882185679724956.jpg"/></span>生酮曲奇饼干</a>
+					    <a href="javascript:;" class="tgcyy">goslim</a>
+					</li>
+					<li>
+					    <a href="javascript:;" title="土豆块"><span><img src="img/2019012515483880873089724956.jpg"/></span>土豆块</a>
+					    <a href="javascript:;" class="tgcyy">许心怡_xicK</a>
+					</li>
+					<li>
+					    <a href="javascript:;" title="炒河虾"><span><img src="img/2019012515483880445879724956.jpg"/></span>炒河虾</a>
+					    <a href="javascript:;" class="tgcyy">建业五金</a>
+					</li>
+				</ul>
+				<ul id="zx3">
+					<li>
+						<a href="javascript:;" title="红烧肉"><span><img src="img/201511261448511476963.jpg"></span>红烧肉</a>
+						<a href="javascript:;" class="tgcyy">红烧肉</a>	
+					</li>
+					<li>
+						<a href="javascript:;" title="红烧茄子"><span><img src="img/201412161418708820256.jpg"></span>红烧茄子</a>
+						<a href="javascript:;" class="tgcyy">红烧茄子</a>	
+					</li>
+					<li>
+						<a href="javascript:;" title="宫保鸡丁"><span><img src="img/201412171418792288850.jpg"></span>宫保鸡丁</a>
+						<a href="javascript:;" class="tgcyy">宫保鸡丁</a>	
+					</li>
+					<li>
+						<a href="javascript:;" title="麻辣香锅"><span><img src="img/201412171418794418131.jpg"/></span>麻辣香锅</a>
+						<a href="javascript:;" class="tgcyy">麻辣香锅</a>	
+					</li>
+					<li>
+						<a href="javascript:;" title="红烧排骨"><span><img src="img/201412151418633910888.jpg"/></span>红烧排骨</a>
+						<a href="javascript:;" class="tgcyy">红烧排骨</a>	
+					</li>
+					<li>
+						<a href="javascript:;" title="糖醋排骨"><span><img src="img/201412151418633722494.jpg"/></span>糖醋排骨</a>
+						<a href="javascript:;" class="tgcyy">糖醋排骨</a>	
+					</li>
+					<li>
+						<a href="javascript:;" title="鱼香肉丝"><span><img src="img/201412151418637339893.jpg"/></span>鱼香肉丝</a>
+						<a href="javascript:;" class="tgcyy">鱼香肉丝</a>	
+					</li>
+					<li>
+						<a href="javascript:;" title="可乐鸡翅"><span><img src="img/201412151418629886725.jpg"/></span>可乐鸡翅</a>
+						<a href="javascript:;" class="tgcyy">可乐鸡翅</a>	
+					</li>
+					<li>
+						<a href="javascript:;" title="麻婆豆腐"><span><img src="img/201501101420860049389.jpg"/></span>麻婆豆腐</a>
+						<a href="javascript:;" class="tgcyy">麻婆豆腐</a>	
+					</li>
+					<li>
+						<a href="javascript:;" title="佛跳墙"><span><img src="img/201501101420857970771.jpg"/></span>佛跳墙</a>
+						<a href="javascript:;" class="tgcyy">佛跳墙</a>	
+					</li>
+					<li>
+						<a href="javascript:;" title="水煮肉片"><span><img src="img/201412151418632855242.jpg"/></span>水煮肉片</a>
+						<a href="javascript:;" class="tgcyy">水煮肉片</a>	
+					</li>
+					<li>
+						<a href="javascript:;" title="红烧鱼"><span><img src="img/201412151418636937711.jpg"/></span>红烧鱼</a>
+						<a href="javascript:;" class="tgcyy">红烧鱼</a>	
+					</li>
+					<li>
+						<a href="javascript:;" title="沙拉"><span><img src="img/201501101420879222287.jpg"/></span>沙拉</a>
+						<a href="javascript:;" class="tgcyy">沙拉</a>	
+					</li>
+					<li>
+						<a href="javascript:;" title="西红柿炒鸡蛋"><span><img src="img/201412151418631294204.jpg"/></span>西红柿炒鸡蛋</a>
+						<a href="javascript:;" class="tgcyy">西红柿炒鸡蛋</a>	
+					</li><li>
+						<a href="javascript:;" title="蛋炒饭"><span><img src="img/201501291422521713355.jpg"/></span>蛋炒饭</a>
+						<a href="javascript:;" class="tgcyy">蛋炒饭</a>	
+					</li>
+					<li>
+						<a href="javascript:;" title="鸡蛋饼"><span><img src="img/201501101420869487206.jpg"/></span>鸡蛋饼</a>
+						<a href="javascript:;" class="tgcyy">鸡蛋饼</a>	
+					</li>
+					<li>
+						<a href="javascript:;" title="口水鸡"><span><img src="img/201412151418634904516.jpg"/></span>口水鸡</a>
+						<a href="javascript:;" class="tgcyy">口水鸡</a>	
+					</li>
+					<li>
+						<a href="javascript:;" title="水煮鱼"><span><img src="img/201501101420856398745.jpg"/></span>水煮鱼</a>
+						<a href="javascript:;" class="tgcyy">水煮鱼</a>	
+					</li>
+					<li>
+						<a href="javascript:;" title="啤酒鸭"><span><img src="img/201501101420859859839.jpg"/></span>啤酒鸭</a>
+						<a href="javascript:;" class="tgcyy">啤酒鸭</a>	
+					</li>
+					<li>
+						<a href="javascript:;" title="麻辣烫"><span><img src="img/201412151418639576351.jpg"/></span>麻辣烫</a>
+						<a href="javascript:;" class="tgcyy">麻辣烫</a>	
+					</li>			
+				</ul>
+				<ul id="zx4">
+					
+				</ul>
+				<ul id="zx5">
+					
+				</ul>
+				<ul id="zx6">
+					
+				</ul>
+				<ul id="zx7">
+					
+				</ul>
+				<ul id="zx8">
+					
+				</ul>
+				<ul id="zx9">
+					
+				</ul>
+				<ul id="zx10">
+					
+				</ul>
+			</div>
+			<!--显示更多-->
+			<a href="javascript:;" data-xsgd="xsgd">显示更多</a>
+		</div>
+		<!--footer-->
+		<div class="foot">
+			<div class="foot-top">
+				<ul>
+					<a href="javascript:;">美食天下-让吃更美好!</a>
+					<li><a href="javascript:;">关于我们</a> ·</li>
+					<li><a href="javascript:;">联系我们</a> ·</li>
+					<li><a href="javascript:;">加入我们</a> ·</li>
+					<li><a href="javascript:;">服务声明</a> ·</li>
+					<li><a href="javascript:;">友情链接</a> ·</li>
+					<li><a href="javascript:;">网站地图</a> ·</li>
+					<li><a href="javascript:;">移动应用</a></li>
+				</ul>
+				<ul>
+					<li><img src="img/msc_app.png" alt=""/><span>手机客户端</span></li>
+					<li><img src="img/weixin_727.png" alt=""/><span>微信公众号</span></li>
+				</ul>
+			</div>
+			<div class="foot-middle">
+				<ul>
+					<li>友情链接：</li>
+					<li><a href="javascript:;">愉悦妈妈</a></li>
+					<li><a href="javascript:;">自游乐</a></li>
+					<li><a href="javascript:;">爱奇艺生活</a></li>
+					<li><a href="javascript:;">中华美食网</a></li>
+					<li><a href="javascript:;">太平洋亲子网</a></li>
+					<li><a href="javascript:;">美食杰</a></li>
+					<li><a href="javascript:;">红餐网</a></li>
+					<li><a href="javascript:;">食品商务网</a></li>
+					<li><a href="javascript:;">妈妈网</a></li>
+					<li><a href="javascript:;">亲宝网</a></li>
+					<li><a href="javascript:;">6296网址大全</a></li>
+					<li><a href="javascript:;">中国地图</a></li>
+					<li><a href="javascript:;">三九养生堂</a></li>
+					<li><a href="javascript:;">饭菜网</a></li>
+					<li><a href="javascript:;">波奇网</a></li>
+					<li><a href="javascript:;">糖豆网</a></li>
+					<li><a href="javascript:;">慧聪网</a></li>
+					<li><a href="javascript:;">企业服务平台</a></li>
+					<li><a href="javascript:;">什么值得买</a></li>
+				</ul>
+			</div>
+			<div class="foot-bottom">
+				<div class="bottom-left">
+					<p>
+						版权所有 &copy; 2004-2019 
+						<a href="javascript:;">美食天下</a> 保留所有权利 - 
+						<img src="img/beian.png"/>
+						<a href="javascript:;">京公网安备 11010502031041号 </a>/ 京ICP证090244号 /
+						<a href="javascript:;">京ICP备10020153号</a>
+					</p>
+				</div>
+				<div class="bottom-right">
+					<img src="img/cyberpolice.gif" alt="" />
+					<img src="img/sm_124x47.png" alt="" />
+					<img src="img/cnnic.png" alt="" />
+				</div>
+			</div>
+		</div>
+		<script src="js/jquery-1.11.3.js"></script>
+		<script src="js/caipu.js"></script>
+	</body>
+</html>

@@ -1,0 +1,225 @@
+/*导航*/
+.nav{
+	width:575px;
+	margin-left:270px;
+}
+/*浏览全部珍选*/
+.llcbzx{
+	width:990px;
+	height:36px;
+	margin: 0 auto;
+	border-top:1px solid #FF6767;
+	border-bottom:1px solid #FF6767;
+}
+.llcbzx>ul>li{
+	float:left;
+	padding:0 11px;
+}
+.llcbzx>ul>li>a{
+	text-decoration: none;
+	color:#333;
+	font-size: 14px;
+	line-height: 32px;
+}
+.llcbzx>ul>li:first-child>a{
+	color:#ff6767;
+}
+.llcbzx>ul>li>a:hover{
+	color:#ff6767;
+}
+.llcbzx>ul>li:last-child{
+	float:right;
+	position: relative;
+}
+.llcbzx>ul>li:last-child>div{
+	position: absolute;
+	width:990px;
+	height:390px;
+	left:-870px;
+	top:35px;
+	overflow: hidden;
+	box-shadow: 0 2px 3px #ddd;
+	display: none;
+	background: #fff;
+}
+.llcbzx>ul>li:last-child>div>div{
+	float:left;
+}
+.llcbzx>ul>li:last-child>div>div ul{
+	width:150px;
+	margin:0 5px 0 10px;  
+	overflow: hidden;
+}
+.llcbzx>ul>li:last-child>div>div ul li{
+	float:left;
+}
+.llcbzx>ul>li:last-child>div>div ul h5{
+	margin:7px 0;
+}
+.llcbzx>ul>li:last-child>div>div ul li a{
+	display: block;
+	text-decoration: none;
+	color:#333;
+	font-size: 12px;
+	width:75px;
+	height:30px;
+}
+.llcbzx>ul>li:last-child>div>div ul li a:hover{
+	color:#ff6767;
+}
+/*.llcbzx>ul>li:last-child>a:hover+div,.llcbzx>ul>li:last-child>div:hover{
+	display:block;
+	background:#fff;
+}*/
+/*三张图*/
+.three{
+	width:990px;
+	height:250px;
+	margin:20px auto;
+}
+.three img{
+	width:300px;
+	height:250px;
+	float:left;
+	margin:0px 15px;
+}
+/*小图片*/
+.littlelogo{
+	width:990px;
+	height:70px;
+	margin:20px auto;
+}
+.littlelogo a{
+	display: block;
+	width:99px;
+	font-size: 14px;
+	color:#333;
+	text-decoration: none;
+	float:left;
+	text-align: center;
+}
+.littlelogo img{
+	width:50px;
+	height:50px;
+	padding:0px 20px;
+}
+.littlelogo a:hover{
+	color:#ff6767;
+}
+/*发现尖货*/
+.fxjh{
+	width:990px;
+	height:1750px;
+	margin:0 auto;
+	margin-top: 30px;
+}
+.faxian{
+	width:990px;
+	height:36px;
+	border-bottom:3px solid #EBEBEB;
+}
+.faxian-left{
+	width:620px;
+	height:50px;
+	float:left;
+}
+.faxian-right{
+	width:370px;
+	height:50px;
+	float:right;
+}
+.faxian-left a{
+	display: inline-block;
+	text-decoration:none;
+	height:37px;
+	font-size:20px;
+	font-weight:400;
+	margin-right:10px;
+	color:#666;
+}
+.faxian-left a:first-child{
+	color:#FF6767;
+	border-bottom: 3px solid #FF6767;
+}
+.faxian-right a{
+	display: inline-block;
+	text-decoration: none;
+	font-size: 16px;
+	margin-left:15px;
+	color:#333;
+}
+.faxian-right a:hover{
+	color:#FF6767;
+}
+.fxjh-container{
+	margin-top: 10px;
+	position: relative;
+}
+.fxjh ul{
+	width:990px;
+	position: absolute;
+	list-style: none;
+	background-color:#fff;
+}
+.fxjh ul li{
+	float:left;
+	width:230px;
+	height:330px;
+	margin-right:23px
+}
+.fxjh ul li:nth-child(4),.fxjh ul li:nth-child(8),.fxjh ul li:nth-child(12),.fxjh ul li:nth-child(16),.fxjh ul li:nth-child(20){
+	margin-right: 0px;
+}
+.fxjh ul li a{
+	display: block;
+	width:230px;
+	height:260px;
+	text-decoration: none;
+	font-size: 14px;
+	color:#000;
+	text-align: center;
+}
+.fxjh ul li a span{
+	display: block;
+	width:230px;
+	height:230px;
+	overflow: hidden;
+	margin-bottom: 7px;
+	background:#eeeeee;
+}
+.fxjh ul li a img{
+	width:230px;
+	height:230px;	
+	transition:transform .5s ease-in-out;
+}
+.fxjh ul li a img:hover{
+	transform: scale(1.1,1.1);	
+}
+.fxjh ul li a:nth-child(2){
+	display: inline-block;
+	text-decoration: none;
+	font-size:12px;
+	width:230px;
+	height:15px;
+	color:#ff6767;
+	height:15px;
+	text-align: center;
+	line-height: 15px;
+}
+.fxjh ul li a:hover{
+	color:#FF6767;
+}
+.fxjh ul li a:nth-child(3){
+	display: block;
+	width:52px;
+	height:22px;
+	line-height: 22px;
+	border:1px solid #ff6767;
+	border-radius:15px;
+	margin:8px auto;
+	color:#ff6767;
+}
+.fxjh ul li a:nth-child(3):hover{
+	background: #ff6767;
+	color:#fff;
+}

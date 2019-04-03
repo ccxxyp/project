@@ -1,0 +1,132 @@
+/*背景图片*/
+.bjdl{
+	width:1423px;
+	height:750px;
+	position: relative;
+}
+.bjdl>img{
+	width:100%;
+	height:100%;
+}
+.dl{
+	width:530px;
+	height:300px;
+	position: absolute;
+	border-radius: 5px;
+	top:30%;
+	left:30%;
+	background:rgba(247,247,247,.8)
+}
+.dl>div:first-child>a{
+	float:left;
+	display: block;
+	width:265px;
+	height:50px;
+	text-decoration: none;
+	color:#333;
+	font-size: 20px;
+	text-align: center;
+	line-height: 50px;
+}
+.dl>div:first-child>a:first-child{
+	background: rgba(0,0,0,.6);
+	color:#fff;
+}
+.dl>div:first-child>a:hover{
+	color:#FF6767;
+	text-decoration: underline;
+}
+.root{
+	width:530px;
+	height:250px;
+}
+.r-left{
+	width:320px;
+	height:180px;
+	position: absolute;
+	top:75px;
+	left:15px;
+	border-right:1px solid #999;
+	padding: 15px 0;
+}
+.r-left>form>p{
+	width:300px;
+	height:32px;
+	border:1px solid #999;
+	border-radius: 4px;
+	color:#333;
+	font-size: 14px;
+	line-height: 32px;
+	margin-bottom: 10px;
+}
+.r-left>form>p>label{
+	padding: 0 5px;
+}
+.r-left>form>p>input{
+	width: 190px;
+    border: 0;
+    height:32px;
+    outline: 0;
+    font-size: 14px;
+    background: rgba(0,0,0,0);
+}
+.r-left>form>p:nth-child(3){
+	border:none;
+}
+.r-left>form>p:nth-child(3)>input{
+	width:12px;
+	height:12px;
+}
+.r-left>form>p:nth-child(3)>a{
+	float:right;
+	font-size: 14px;
+	color:#333;
+}
+.r-left>form>p:nth-child(3)>a:hover{
+	color:#ff6767;
+}
+.r-left>form>input{
+	line-height: 40px;
+	color:#fff;
+	font-size: 18px;
+	text-align: center;
+	outline: none;
+	border:none;
+	border-radius: 5px;
+	cursor: pointer;
+	width:300px;
+	height:40px;
+	background:#ff6767;
+}
+.r-right{
+	width:140px;
+	height:200px;
+	position: absolute;
+	top:75px;
+	left:365px;
+}
+.r-right>img:first-child{
+	width: 110px;
+	height:110px;
+	margin-left:15px;
+}
+.r-right>p{
+	font-size:14px;
+	color:#333;
+}
+.r-right>div{
+	display: block;
+	width:140px;
+	height:30px;
+	margin-top: 10px;
+}
+.r-right>div>a{
+	width:30px;
+	height:30px;
+	float:left;
+	margin-left:15px;
+}
+.r-right>div>a>img{
+	width:30px;
+	height:30px;	
+}

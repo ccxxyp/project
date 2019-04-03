@@ -1,0 +1,235 @@
+/*导航*/
+.nav{
+	width:755px;
+	margin-left:100px;
+}
+/*浏览全部菜单*/
+.llcbcp{
+	width:990px;
+	height:36px;
+	margin: 0 auto;
+	border-top:1px solid #FF6767;
+	border-bottom:1px solid #FF6767;
+}
+.llcbcp>ul>li{
+	float:left;
+	padding:0 11px;
+}
+.llcbcp>ul>li>a{
+	text-decoration: none;
+	color:#333;
+	font-size: 14px;
+	line-height: 32px;
+}
+.llcbcp>ul>li:first-child>a{
+	color:#ff6767;
+}
+.llcbcp>ul>li>a:hover{
+	color:#ff6767;
+}
+.llcbcp>ul>li:last-child{
+	float:right;
+	position: relative;
+}
+.llcbcp>ul>li:last-child>div{
+	position: absolute;
+	width:990px;
+	height:375px;
+	left:-870px;
+	top:35px;
+	overflow: hidden;
+	box-shadow: 0 2px 3px #ddd;
+	display: none;
+	background: #fff;
+}
+.llcbcp>ul>li:last-child>div ul{
+	float:left;
+	width:150px;
+	margin:0 5px 0 10px;  
+}
+.llcbcp>ul>li:last-child>div ul li{
+	float:left;
+}
+.llcbcp>ul>li:last-child>div ul h5{
+	margin:10px 0;
+}
+.llcbcp>ul>li:last-child>div ul li a{
+	display: block;
+	text-decoration: none;
+	color:#333;
+	font-size: 12px;
+	width:75px;
+	height:30px;
+}
+.llcbcp>ul>li:last-child>div ul li a:hover{
+	color:#ff6767;
+}
+/*.llcbcp>ul>li:last-child>a:hover+div,.llcbcp>ul>li:last-child>div:hover{
+	display:block;
+	background:#fff;
+}*/
+/*三张图*/
+.three{
+	width:990px;
+	height:250px;
+	margin:10px auto;
+}
+.three img{
+	width:300px;
+	height:250px;
+	float:left;
+	margin:0px 15px;
+}
+/*小图片*/
+.littlelogo{
+	width:990px;
+	height:70px;
+	margin:20px auto;
+}
+.littlelogo a{
+	display: block;
+	width:99px;
+	font-size: 14px;
+	color:#333;
+	text-decoration: none;
+	float:left;
+	text-align: center;
+}
+.littlelogo img{
+	width:50px;
+	height:50px;
+	padding:0px 20px;
+}
+.littlelogo a:hover{
+	color:#ff6767;
+}
+/*最新推荐*/
+.zxtj{
+	width:990px;
+	height:2600px;
+	margin:0 auto;
+	margin-top: 30px;
+}
+.zuixin{
+	width:990px;
+	height:36px;
+	border-bottom:3px solid #EBEBEB;
+}
+.zuixin-left{
+	width:800px;
+	height:50px;
+	float:left;
+}
+.zuixin-right{
+	width:90px;
+	height:50px;
+	float:right;
+}
+.zuixin-left a{
+	display: inline-block;
+	text-decoration:none;
+	height:37px;
+	font-size:20px;
+	font-weight:400;
+	margin-right:10px;
+	color:#666;
+}
+.zuixin-left a.active{
+	color:#FF6767;
+	border-bottom: 3px solid #FF6767;
+}
+.zuixin-right a{
+	display: inline-block;
+	text-decoration: none;
+	font-size: 16px;
+	margin-left:15px;
+	color:#333;
+}
+.zuixin-right a:hover{
+	color:#FF6767;
+}
+.zxtj-container{
+	width:990px;
+	height:2450px;
+	margin-top: 10px;
+	position: relative;
+}
+.zxtj ul{
+	width:990px;
+	position: absolute;
+	list-style: none;
+	background-color:#fff;
+}
+.zxtj ul li{
+	float:left;
+	width:230px;
+	height:300px;
+	margin-right:23px
+}
+.zxtj ul li:nth-child(4),
+.zxtj ul li:nth-child(8),
+.zxtj ul li:nth-child(12),
+.zxtj ul li:nth-child(16),
+.zxtj ul li:nth-child(20),
+.zxtj ul li:nth-child(24),
+.zxtj ul li:nth-child(28),
+.zxtj ul li:nth-child(32){
+	margin-right: 0px;
+}
+.zxtj ul li a{
+	display: block;
+	width:230px;
+	height:260px;
+	text-decoration: none;
+	font-size: 18px;
+	color:#000;
+	text-align: center;
+}
+.zxtj ul li a span{
+	display: block;
+	width:230px;
+	height:230px;
+	overflow: hidden;
+	margin-bottom: 7px;
+}
+.zxtj ul li a img{
+	width:230px;
+	height:230px;	
+	transition:transform .5s ease-in-out;
+}
+.zxtj ul li a img:hover{
+	transform: scale(1.1,1.1);	
+}
+.zxtj ul li a.tgcyy{
+	display: inline-block;
+	text-decoration: none;
+	font-size:12px;
+	width:230px;
+	height:15px;
+	color:#999;
+	height:15px;
+	text-align: center;
+	line-height: 15px;
+}
+.zxtj ul li a:hover{
+	color:#FF6767;
+}
+/*显示更多*/
+.zxtj>a{
+	display: block;
+	height:44px;
+	line-height: 44px;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 18px;
+    color: #ff6767;
+    background: #f8f8f8;
+    outline: 0;
+    cursor: pointer;
+    text-decoration: none;
+}
+.zxtj>a:hover{
+	color:#fff;
+	background:#ff6767;
+}
+

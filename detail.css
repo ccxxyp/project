@@ -1,0 +1,355 @@
+/*导航*/
+.nav{
+	width:755px;
+	margin-left:100px;
+}
+/*浏览全部菜单*/
+.llcbcp{
+	width:990px;
+	height:36px;
+	margin: 0 auto;
+	border-top:1px solid #FF6767;
+	border-bottom:1px solid #FF6767;
+}
+.llcbcp>ul>li{
+	float:left;
+	padding:0 11px;
+}
+.llcbcp>ul>li>a{
+	text-decoration: none;
+	color:#333;
+	font-size: 14px;
+	line-height: 32px;
+}
+.llcbcp>ul>li:first-child>a{
+	color:#ff6767;
+}
+.llcbcp>ul>li>a:hover{
+	color:#ff6767;
+}
+.llcbcp>ul>li:last-child{
+	float:right;
+	position: relative;
+}
+.llcbcp>ul>li:last-child>div{
+	position: absolute;
+	width:990px;
+	height:375px;
+	left:-872px;
+	top:35px;
+	overflow: hidden;
+	box-shadow: 0 2px 3px #ddd;
+	display: none;
+	background: #fff;
+}
+.llcbcp>ul>li:last-child>div ul{
+	float:left;
+	width:150px;
+	margin:0 5px 0 10px;  
+}
+.llcbcp>ul>li:last-child>div ul li{
+	float:left;
+}
+.llcbcp>ul>li:last-child>div ul h5{
+	margin:10px 0;
+}
+.llcbcp>ul>li:last-child>div ul li a{
+	display: block;
+	text-decoration: none;
+	color:#333;
+	font-size: 12px;
+	width:75px;
+	height:30px;
+}
+.llcbcp>ul>li:last-child>div ul li a:hover{
+	color:#ff6767;
+}
+/*图片*/
+.tp{
+	width:990px;
+	margin:0 auto;
+	margin-top:20px;
+}
+/*您的位置*/
+.ndwz{
+	width:990px;
+	height:30px;
+	margin: 0 auto;
+	border-bottom: 1px solid #ddd;
+}
+.ndwz>span{
+	color:#666;
+	font-size: 12px;
+}
+.ndwz>a{
+	color:#666;
+	font-size: 12px;
+	text-decoration: none;
+	margin-left: 5px;
+}
+.ndwz>a:last-child,a:nth-child(10){
+	float:right;
+}
+.ndwz>a:hover{
+	color:#ff6767;
+	border-bottom: 1px solid #ff6767;
+}
+/*菜谱做法*/
+.zf{
+	width:990px;
+	height:2600px;
+	margin:0 auto;
+}
+.zf-left{
+	width:640px;
+	float:left;
+}
+.zf-left>div:first-childd{
+	width:640px;
+	height:80px;
+}
+.zf-left>div:first-child>a{
+	float:left;
+	font-size: 32px;
+	color:#333;
+	text-decoration: none;
+	text-align: center;
+	margin-top: 20px;
+}
+.zf-left>div:first-child>a>img{
+	width:34px;
+	height:34px;
+	border-radius: 50%;
+}
+.zf-left>div:first-child>a:last-child{
+	float:right;
+	display: block;
+	width:100px;
+	height:55px;
+	text-align: center;
+}
+.zf-left>div:first-child>a>span{
+	display: block;
+	font-size: 12px;
+	color:#333;
+	overflow: hidden;
+	text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.zf-left>img{
+	width:640px;
+	height:480px;
+	margin-top: 10px;
+}
+.zf-left>span{
+	display: block;
+	width:640px;
+	height:20px;
+	color:#ff6767;
+	font-size: 20px;
+	margin: 20px 20px ;
+}
+.zf-left>fieldset{
+	display: block;
+	width:640px;
+	height:106px;
+	border-radius: 10px;
+    border: 1px solid #ddd;
+    padding: 0 0 10px 0;
+    margin: 0 0 15px 0;
+}
+.zf-left>fieldset>legend{
+	margin-left: 40px;
+}
+.zf-left>fieldset>ul>li,
+.zf-left>.xx>li{
+	float:left;
+	width: 159px;
+    text-align: center;
+    height: 70px;
+    margin: 10px auto;
+}
+.zf-left>fieldset>ul>li>a,
+.zf-left>.xx>li>a{
+	text-decoration: none;
+	font-size: 20px;
+	color:#333;
+	display: block;
+	width:159px;
+	height:40px;
+	line-height: 40px;
+	text-align: center;
+}
+.zf-left>fieldset>ul>li>a:hover,
+.xx>li>a:hover{
+	color:#ff6767;
+}
+.zf-left>fieldset>ul>li>p,
+.xx>li>p{
+	color: #999;
+    display: block;
+    font-size: 12px;
+    line-height: 16px;
+    overflow: hidden;
+    text-align: center;
+    width: 84%;
+    margin: 0 auto;
+}
+.xx{
+	width:640px;
+	height:70px;
+	border:1px solid #ddd;
+	border-radius: 10px;
+    margin: 25px 0 40px 0;
+}
+.xx>li{
+	margin:5px auto;
+}
+.bz>li{
+	width:640px;
+	height: 165px;
+	margin-bottom: 30px;
+}
+.bz>li>img{
+	width:220px;
+	height:165px;
+	float:left;
+}
+.bz>li>div{
+	float:left;
+	width:390px;
+	margin-left: 20px;
+	margin-top: 20px;
+}
+.bz>li>div>p{
+	border: 1px solid #ddd;
+    border-radius: 50%;
+    font-size: 18px;
+    height: 36px;
+    line-height: 34px;
+    text-align: center;
+    width: 36px;
+    margin-bottom: 10px;
+}
+.bz>li>div>span{
+	font-size: 18px;
+}
+.zf-left>p{
+	margin-bottom:20px;
+	line-height:25px;
+}
+.zf-left>p>a{
+	text-decoration: none;
+	color:#000;
+}
+.zf-left>p>a:hover{
+	color:#ff6767;
+	border-bottom: 1px solid #ff6767;
+}
+.xh>a{
+	text-decoration:none;
+	color:#666;
+	font-size: 11px;
+	margin:0 20px 0 10px;
+}
+.zf-right{
+	width:300px;
+	float:right;
+	margin-top:60px;
+}
+.zf-right>div{
+	width:300px;
+}
+.zf-right>div:first-child,
+.zf-right>div:nth-child(3),
+.zf-right>div:nth-child(5){
+	height:36px;
+	border-bottom: 1px solid #ddd;
+}
+.zf-right>div:first-child>p,
+.zf-right>div:nth-child(3)>span,
+.zf-right>div:nth-child(5)>p{
+	display: inline-block;
+	float:left;
+	width:80px;
+	height:35px;
+	line-height: 35px;
+	color: #ff6767;
+    border-bottom: 3px solid #ff6767;
+    font-size: 20px;
+}
+.zf-right>div:first-child>a,
+.zf-right>div:nth-child(5)>a{
+	display: inline-block;
+	float:right;
+	height:35px;
+	line-height: 35px;
+	text-decoration: none;
+	color:#333;
+	font-size:16px;
+}
+.zf-right>div:first-child>a:hover,
+.zf-right>div:nth-child(5)>a:hover{
+	color:#ff6767;
+}
+.zf-right>div:nth-child(2),
+.zf-right>div:nth-child(6){
+	height:510px;
+	margin-top:5px;
+	margin-bottom: 40px;
+}
+.zf-right>div:nth-child(2)>a,
+.zf-right>div:nth-child(6)>a{
+	display: block;
+	width:88px;
+	height:34px;
+	text-decoration: none;
+	color:#333;
+	float: left;
+    border: 1px solid #eee;
+    text-align: center;
+    font-size: 14px;
+    line-height: 34px;
+   	margin:15px 10px 0 0;
+   	white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.zf-right>div:nth-child(2)>a:hover,
+.zf-right>div:nth-child(6)>a:hover{
+	border:1px solid #ff6767;
+	color:#ff6767;
+}
+.zf-right>div:nth-child(3)>span{
+	width:200px;
+}
+.zf-right>div:nth-child(4){
+	margin-top: 10px;
+	height:100px
+}
+.zf-right>div:nth-child(4)>img{
+	width:60px;
+	height:60px;
+	float:left;
+}
+.zf-right>div:nth-child(4)>div{
+	float:left;
+	margin-left: 20px;
+	margin-top: 10px;
+}
+.zf-right>div:nth-child(4)>div>a{
+	text-decoration: none;
+	color:#333;
+	font-size: 16px;
+}
+.zf-right>div:nth-child(4)>div>a:hover{
+	color:#ff6767;
+}
+.zf-right>div:nth-child(4)>div>p{
+	color:#666;
+	font-size: 12px;
+	margin-top: 5px;
+}
+.zf-right>div:nth-child(5)>p{
+	width:160px;
+}

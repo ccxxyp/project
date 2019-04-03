@@ -1,0 +1,125 @@
+/*导航*/
+.nav{
+	width:600px;
+	margin-left:250px;
+}
+/*按字母A-Z检索*/
+.llcbcp{
+	width:990px;
+	height:36px;
+	margin: 0 auto;
+	border-top:1px solid #FF6767;
+	border-bottom:1px solid #FF6767;
+}
+.llcbcp>ul>li{
+	float:left;
+	padding:0 11px;
+}
+.llcbcp>ul>li>a{
+	text-decoration: none;
+	color:#333;
+	font-size: 14px;
+	line-height: 32px;
+}
+.llcbcp>ul>li:first-child>a{
+	color:#ff6767;
+}
+.llcbcp>ul>li>a:hover{
+	color:#ff6767;
+}
+/*图片*/
+.tupian{
+	width:990px;
+	height:90px;
+	margin:20px auto;
+}
+/*时令与热门*/
+.slyrm{
+	width:990px;
+	height:2631px;
+	margin:0 auto;
+}
+.slyrm>div{
+	width:990px;
+	margin: 0 0 30px 0;
+    overflow: hidden;
+    background: #f8f8f8;
+    border-top: 1px solid #eeeeee;
+    border-bottom: 1px solid #eeeeee;
+}
+.slyrm>div:first-child{
+	height:214px;
+}
+.slyrm>div:nth-child(2){
+	height:356px;
+}
+.slyrm>div:nth-child(3){
+	height:427px;
+}
+.slyrm>div:nth-child(4){
+	height:498px;
+}
+.slyrm>div:nth-child(5){
+	height:214px;
+}
+.slyrm>div:nth-child(6){
+	height:356px;
+}
+.slyrm>div:nth-child(7),.slyrm>div:last-child{
+	height:143px;
+}
+.slyrm>div>h3{
+	float: left;
+    font-size: 24px;
+    text-align: center;
+    width: 186px;
+    color: #666;
+    font-weight: 400;
+}
+.slyrm>div:first-child>h3{
+	line-height: 214px;
+}
+.slyrm>div:nth-child(2)>h3{
+	line-height:356px;
+}
+.slyrm>div:nth-child(3)>h3{
+	line-height:427px;
+}
+.slyrm>div:nth-child(4)>h3{
+	line-height:498px;
+}
+.slyrm>div:nth-child(5)>h3{
+	line-height:214px;
+}
+.slyrm>div:nth-child(6)>h3{
+	line-height:356px;
+}
+.slyrm>div:nth-child(7)>h3,.slyrm>div:last-child>h3{
+	line-height:143px;
+}
+.slyrm>div>ul{
+    width:804px;
+    float:right;
+    background: #fff;
+    margin-bottom: -1px;
+    overflow: hidden;
+}
+.slyrm>div>ul>li{
+	float:left;
+}
+.slyrm>div>ul>li>a{
+	float: left;
+    height: 71px;
+    line-height: 64px;
+    width: 133px;
+    border-left: 1px solid #eeeeee;
+    border-bottom: 1px solid #eeeeee;
+    font-size: 20px;
+    color: #333;
+    text-decoration: none;
+    text-align: center;
+    overflow: hidden;
+}
+.slyrm>div>ul>li>a:hover{
+	background:#F8F8F8;
+}
